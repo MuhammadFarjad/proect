@@ -1,0 +1,94 @@
+.parent {
+    min-height: 300px;
+    margin: 12px auto;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  /* space-between -> corner mein space na do or beech mein equal dedo
+  space-around -> corner mein kam space  do or beech mein equal dedo
+  space-evenly  -> sab jagha se barabar dedo*/
+  
+  /* flex-direction
+  align-items
+  justify-content
+  flex-wrap
+  */
+  
+  .box {
+    height: 98px;
+    width: 98px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+  }
+  
+  body{
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  nav{
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 12px;
+  }
+  
+  .logo{
+      cursor: pointer;
+      color: rgb(228, 23, 149);
+  }
+  
+  .nav_item{
+      cursor: pointer;
+  }
+  
+  .location{
+      font-size: 14px;
+      margin: 0px 12px;
+      font-weight: 300;
+  }
+  
+  .favourites:hover{
+      color: rgb(63, 63, 42);
+      text-decoration: underline;
+  }
+  .heart{
+    color:rgb(228, 23, 149)
+  }
+  .text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: inline;
+  }
+  .low{
+    display: inline;
+  }
+  .image{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+  }
+  .image:hover{
+    height: 240px;
+    width: 240px;
+    cursor: pointer;
+  }
+  .pic{
+    padding: 80px;
+  }
